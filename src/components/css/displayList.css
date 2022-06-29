@@ -1,0 +1,36 @@
+.priority-type{
+    display: grid;
+    border: solid 1px black;
+    background-color:aquamarine;
+    color: black;
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+    margin-right:200px;
+
+}
+
+
+.Urgent{
+    border-right: 50px solid red;
+    padding-left: 30px;
+    
+}
+
+.High{
+    border-right: 50px solid rgb(209, 12, 153);
+    padding-left: 30px;
+    
+}
+.Average{
+    border-right: 50px solid greenyellow;
+    padding-left: 30px;
+
+}
+.Low{
+    border-right: 50px solid rgb(37, 10, 79);
+    padding-left: 30px;
+}
+h1{
+    padding-right: 150px;
+}
