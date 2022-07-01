@@ -26,7 +26,7 @@ function App() {
   
 
   return (
-    <Router>
+    <Router basename='To-Do-App'>
       <Switch>
          <Route exact path="/" component={Login}></Route>
          <Route path="/home">
